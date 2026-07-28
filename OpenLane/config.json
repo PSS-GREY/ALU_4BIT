@@ -1,0 +1,18 @@
+{
+  "DESIGN_NAME": "alu_top",
+
+  "VERILOG_FILES": [
+    "dir::src/alu4bit.v",
+    "dir::src/mod8counter.v",
+    "dir::src/alu_top.v"
+  ],
+
+  "CLOCK_PORT": "clk",
+
+  "FP_SIZING": "absolute",
+  "DIE_AREA": "0 0 400 400",
+  "CORE_AREA": "20 20 380 380",
+
+  "FP_CORE_UTIL": 30,
+  "PL_TARGET_DENSITY": 0.45
+}
